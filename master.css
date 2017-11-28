@@ -1,3 +1,16 @@
 body{
 	font-family: 'Roboto', sans-serif;
+    background: -moz-linear-gradient(to right, #3c3b3f, #605c3c);
+    background: -ms-linear-gradient(to right, #3c3b3f, #605c3c);
+    background: -o-linear-gradient(to right, #3c3b3f, #605c3c);
+    background: linear-gradient(to right, #3c3b3f, #605c3c);
+}
+#orange{
+	width: 700px;
+	height: 700px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 2%;
+	background-color: #d29034;
+	border-radius: 100%;
 }

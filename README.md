@@ -3,7 +3,7 @@ Comming Soon
 
 ### So i just uploaded all the files that i will be using.. In next few days, there will be some nice changes and progress on project.
 
-### First i will start with backgroun gradients.
+So, bg is added, next step is main section
 
 ### Skill:
 ----------
