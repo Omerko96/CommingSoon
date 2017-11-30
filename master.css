@@ -4,13 +4,31 @@ body{
     background: -ms-linear-gradient(to right, #3c3b3f, #605c3c);
     background: -o-linear-gradient(to right, #3c3b3f, #605c3c);
     background: linear-gradient(to right, #3c3b3f, #605c3c);
+    width: 100%;
+    height: 100vh;
 }
 #orange{
+	background-color: #d29034;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
 	width: 700px;
 	height: 700px;
-	display: block;
-	margin: 0 auto;
-	margin-top: 2%;
-	background-color: #d29034;
 	border-radius: 100%;
+}
+
+h1{
+	text-align: center;
+	padding: 70px 0px 0px;
+	font-size: 50px;
+	color: #f2f1ef;
+	font-style: italic;
+}
+p{
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
 }
