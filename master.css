@@ -18,6 +18,7 @@ body{
 	width: 700px;
 	height: 700px;
 	border-radius: 100%;
+	text-align: center;
 }
 
 h1{
@@ -28,7 +29,33 @@ h1{
 	font-style: italic;
 }
 p{
-	text-align: center;
 	font-weight: bold;
 	color: #ffffff;
+}
+
+/*    TIMER     */
+#countdown{
+	display: block;
+	margin: 0 auto;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	margin-right: 40px;
+}
+#countdown li{
+	display: inline-block;
+	background: transparent url('img/timer-piece.png') no-repeat left top;
+	width: 104px;
+	margin-bottom: 2em;
+}
+#countdown li span{
+	font-size: 3em;
+	font-weight: bold;
+	height: 115px;
+	line-height: 115px;
+}
+
+#countdown li p{
+	color: #000000;
+	font-weight: 300;
+	text-transform: uppercase;
 }

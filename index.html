@@ -21,6 +21,26 @@
 
     <div id="orange">
         <h1>Comming Soon</h1>
+        
+        <ul id="countdown">
+          <li>
+            <span class="days">00</span>
+            <p class="timeRefDays">Days</p>
+          </li>
+          <li>
+            <span class="hours">00</span>
+            <p class="timeRefHours">Hours</p>
+          </li>
+          <li>
+            <span class="minutes">00</span>
+            <p class="timeRefMinutes">Minutes</p>
+          </li>
+          <li>
+            <span class="seconds">00</span>
+            <p class="timeRefSeconds">Seconds</p>
+          </li>
+        </ul>
+
         <p class="lead">"Plan in decades, think in years, work in months and live in days"</p>
     </div>
 
@@ -28,5 +48,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- Countdown -->
+    <script src="js/countdown.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("#countdown").countdown({
+          date: "10 mart 2018 12:00:00",
+          format: "on"
+        });
+      });
+    </script>
   </body>
 </html>
