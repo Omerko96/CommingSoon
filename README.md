@@ -3,7 +3,7 @@ Comming Soon
 
 ### So i just uploaded all the files that i will be using.. In next few days, there will be some nice changes and progress on project.
 
-TImer will be online tommorow
+The only thing left is responsive view.. it will be done soon and project will be good to go.
 
 ### Skill:
 ----------
@@ -14,7 +14,7 @@ TImer will be online tommorow
 * jQUery
 ---------------------------------
 
-I decided to not use SASS/SCSS for this, maybe in future i will changes from CSS3 to SASS for better organisation.
+I decided to not use SASS/SCSS for this, maybe in the future i will change from CSS3 to SASS for better organisation.
 
 ### License
 -----------
