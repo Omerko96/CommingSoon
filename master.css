@@ -59,3 +59,23 @@ p{
 	font-weight: 300;
 	text-transform: uppercase;
 }
+
+/*	SOCIAL ICONS	*/
+.social-icons{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: #dcdcdc;
+	width: 50px;
+	height: 150px;
+	border-radius: 5px 0px 0px 5px;
+}
+.social-icons .social-icon{
+	display: block;
+	text-align: center;
+	color: #000000;
+	font-size: 22px;
+	margin: 5px 0px;
+}
