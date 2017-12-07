@@ -3,7 +3,7 @@ Comming Soon
 
 ### So i just uploaded all the files that i will be using.. In next few days, there will be some nice changes and progress on project.
 
-The only thing left is responsive view.. it will be done soon and project will be good to go.
+Everything is fully done, on weekend, i will make this fully online.
 
 ### Skill:
 ----------

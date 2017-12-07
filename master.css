@@ -79,3 +79,150 @@ p{
 	font-size: 22px;
 	margin: 5px 0px;
 }
+
+/*	MEDIA QUERIES	*/
+/* Small Screens */
+@media screen
+and ( min-width: 320px )
+and ( max-width: 480px ){
+	#orange{
+		width: 300px;
+		height: 300px;
+	}
+	#orange h1{
+		font-size: 25px;
+		padding: 10px 0px 0px;
+	}
+	#orange p{
+		max-width: 200px;
+		display: block;
+		margin: 0 auto;
+	}
+	#countdown{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	#countdown li{
+		margin-bottom: 10px;
+	}
+	#countdown li span{
+		font-size: 2em;
+		height: 25px !important;
+		line-height: 30px !important;
+	}
+	.social-icons{
+		height: 40px;
+		width: 150px;
+		bottom: 0;
+		left: 0;
+		top: auto;
+		text-align: center;
+		border-radius: 5px 5px 0px 0px;
+	}
+	.social-icons .social-icon{
+		display: inline-block;
+		margin: 5px 5px;
+	}
+}
+
+/* Small Screens Landscape */
+@media screen
+and ( min-width: 320px )
+and ( max-width: 480px )
+and ( orientation: landscape ){
+	.social-icons{
+		height: 40px;
+		width: 130px;
+		left: auto;
+		border-radius: 5px 0px 0px 0px;
+	}
+}
+
+/* Smarth Phones */
+@media screen
+and ( min-width: 481px )
+and ( max-width: 767px ){
+	#orange{
+		width: 400px;
+		height: 400px;
+	}
+	#orange h1{
+		font-size: 35px;
+		padding: 20px 0px 0px;
+	}
+	#orange p{
+		max-width: 300px;
+		display: block;
+		margin: 0 auto;
+	}
+	#countdown{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	#countdown li{
+		margin-bottom: 10px;
+	}
+	#countdown li span{
+		font-size: 2em;
+		height: 50px !important;
+		line-height: 50px !important;
+	}
+	.social-icons{
+		height: 40px;
+		width: 150px;
+		bottom: 0;
+		left: 0;
+		top: auto;
+		text-align: center;
+		border-radius: 5px 5px 0px 0px;
+	}
+	.social-icons .social-icon{
+		display: inline-block;
+		margin: 5px 5px;
+	}
+}
+
+/* Smarth Phones Landscape */
+@media screen
+and ( min-width: 481px )
+and ( max-width: 767px )
+and ( orientation: landscape ){
+	.social-icons{
+		height: 40px;
+		width: 130px;
+		left: auto;
+		border-radius: 5px 0px 0px 0px;
+	}
+}
+
+/* Tablets */
+@media screen
+and ( min-width: 768px )
+and ( max-width: 1024px ){
+	.social-icons{
+		height: 40px;
+		width: 150px;
+		bottom: 0;
+		left: 0;
+		top: auto;
+		text-align: center;
+		border-radius: 5px 5px 0px 0px;
+	}
+	.social-icons .social-icon{
+		display: inline-block;
+		margin: 5px 5px;
+	}
+}
+
+/* Tablets Landscape */
+@media screen
+and ( min-width: 768px )
+and ( max-width: 1024px )
+and ( orientation: landscape ){
+	.social-icons{
+		height: 40px;
+		width: 130px;
+		left: auto;
+		border-radius: 5px 0px 0px 0px;
+	}
+}
