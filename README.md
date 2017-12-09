@@ -1,9 +1,12 @@
 # Comming Soon
 ### Project
+
 This is my second online project, it is simple [Comming Soon](http://www.commingsoon.navbarstyles.com/) page.
+
 ---
 ### Goal
 My main goal for this project is to make me more followers / clients. I would like to make more from me and i'm taking small steps for now.
+
 ---
 ### Creator
 - [Facebook](https://www.facebook.com/stefanblade.omerovic)
