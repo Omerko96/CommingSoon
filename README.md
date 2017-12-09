@@ -31,7 +31,9 @@ $(document).ready(function(){
 * jQUery
 ---
 ### Plans
+
 I have plans to change from raw CSS3 to SASS/SCSS so it could be easier to change styles on page. 
+
 ---
 ### Licence
 This project is using MIT licence (MIT), which means that you can use, copy, merge, publish, distribute, but you also could help main character behind it. Fork project, follow me, or contact me if you wish to work with me.
