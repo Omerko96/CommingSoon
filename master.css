@@ -1,9 +1,9 @@
 body{
 	font-family: 'Roboto', sans-serif;
-    background: -moz-linear-gradient(to right, #3c3b3f, #605c3c);
-    background: -ms-linear-gradient(to right, #3c3b3f, #605c3c);
-    background: -o-linear-gradient(to right, #3c3b3f, #605c3c);
-    background: linear-gradient(to right, #3c3b3f, #605c3c);
+    background: -moz-linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background: -ms-linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background: -o-linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
     width: 100%;
     height: 100vh;
 }
