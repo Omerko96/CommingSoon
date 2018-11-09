@@ -1,7 +1,7 @@
-# [Comming Soon](http://www.commingsoon.navbarstyles.com/)
+# [Coming Soon](http://www.comingsoon.navbarstyles.com/)
 ### Project
 
-This is my second online project, it is simple [Comming Soon](http://www.commingsoon.navbarstyles.com/) page.
+This is my second online project, it is simple [Coming Soon](http://www.comingsoon.navbarstyles.com/) page.
 
 ---
 ### Goal
