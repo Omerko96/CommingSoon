@@ -1,0 +1,228 @@
+body{
+	font-family: 'Roboto', sans-serif;
+    background: -moz-linear-gradient(to right, #0F2027, #203A43, #2C5364);
+    background: -ms-linear-gradient(to right, #0F2027, #203A43, #2C5364);
+    background: -o-linear-gradient(to right, #0F2027, #203A43, #2C5364);
+    background: linear-gradient(to right, #0F2027, #203A43, #2C5364);
+    width: 100%;
+    height: 100vh;
+}
+#orange{
+	background-color: #d29034;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 700px;
+	height: 700px;
+	border-radius: 100%;
+	text-align: center;
+}
+
+h1{
+	text-align: center;
+	padding: 70px 0px 0px;
+	font-size: 50px;
+	color: #f2f1ef;
+	font-style: italic;
+}
+p{
+	font-weight: bold;
+	color: #ffffff;
+}
+
+/*    TIMER     */
+#countdown{
+	display: block;
+	margin: 0 auto;
+	margin-top: 70px;
+	margin-bottom: 50px;
+	margin-right: 40px;
+}
+#countdown li{
+	display: inline-block;
+	background: transparent url('img/timer-piece.png') no-repeat left top;
+	width: 104px;
+	margin-bottom: 2em;
+}
+#countdown li span{
+	font-size: 3em;
+	font-weight: bold;
+	height: 115px;
+	line-height: 115px;
+}
+
+#countdown li p{
+	color: #000000;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+/*	SOCIAL ICONS	*/
+.social-icons{
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: #dcdcdc;
+	width: 50px;
+	height: 150px;
+	border-radius: 5px 0px 0px 5px;
+}
+.social-icons .social-icon{
+	display: block;
+	text-align: center;
+	color: #000000;
+	font-size: 22px;
+	margin: 5px 0px;
+}
+
+/*	MEDIA QUERIES	*/
+/* Small Screens */
+@media screen
+and ( min-width: 320px )
+and ( max-width: 480px ){
+	#orange{
+		width: 300px;
+		height: 300px;
+	}
+	#orange h1{
+		font-size: 25px;
+		padding: 10px 0px 0px;
+	}
+	#orange p{
+		max-width: 200px;
+		display: block;
+		margin: 0 auto;
+	}
+	#countdown{
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	#countdown li{
+		margin-bottom: 10px;
+	}
+	#countdown li span{
+		font-size: 2em;
+		height: 25px !important;
+		line-height: 30px !important;
+	}
+	.social-icons{
+		height: 40px;
+		width: 150px;
+		bottom: 0;
+		left: 0;
+		top: auto;
+		text-align: center;
+		border-radius: 5px 5px 0px 0px;
+	}
+	.social-icons .social-icon{
+		display: inline-block;
+		margin: 5px 5px;
+	}
+}
+
+/* Small Screens Landscape */
+@media screen
+and ( min-width: 320px )
+and ( max-width: 480px )
+and ( orientation: landscape ){
+	.social-icons{
+		height: 40px;
+		width: 130px;
+		left: auto;
+		border-radius: 5px 0px 0px 0px;
+	}
+}
+
+/* Smarth Phones */
+@media screen
+and ( min-width: 481px )
+and ( max-width: 767px ){
+	#orange{
+		width: 400px;
+		height: 400px;
+	}
+	#orange h1{
+		font-size: 35px;
+		padding: 20px 0px 0px;
+	}
+	#orange p{
+		max-width: 300px;
+		display: block;
+		margin: 0 auto;
+	}
+	#countdown{
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	#countdown li{
+		margin-bottom: 10px;
+	}
+	#countdown li span{
+		font-size: 2em;
+		height: 50px !important;
+		line-height: 50px !important;
+	}
+	.social-icons{
+		height: 40px;
+		width: 150px;
+		bottom: 0;
+		left: 0;
+		top: auto;
+		text-align: center;
+		border-radius: 5px 5px 0px 0px;
+	}
+	.social-icons .social-icon{
+		display: inline-block;
+		margin: 5px 5px;
+	}
+}
+
+/* Smarth Phones Landscape */
+@media screen
+and ( min-width: 481px )
+and ( max-width: 767px )
+and ( orientation: landscape ){
+	.social-icons{
+		height: 40px;
+		width: 130px;
+		left: auto;
+		border-radius: 5px 0px 0px 0px;
+	}
+}
+
+/* Tablets */
+@media screen
+and ( min-width: 768px )
+and ( max-width: 1024px ){
+	.social-icons{
+		height: 40px;
+		width: 150px;
+		bottom: 0;
+		left: 0;
+		top: auto;
+		text-align: center;
+		border-radius: 5px 5px 0px 0px;
+	}
+	.social-icons .social-icon{
+		display: inline-block;
+		margin: 5px 5px;
+	}
+}
+
+/* Tablets Landscape */
+@media screen
+and ( min-width: 768px )
+and ( max-width: 1024px )
+and ( orientation: landscape ){
+	.social-icons{
+		height: 40px;
+		width: 130px;
+		left: auto;
+		border-radius: 5px 0px 0px 0px;
+	}
+}
